@@ -1,0 +1,10 @@
+{% extends 'base.HTML' %}
+{% block title %}
+{{ super() }}
+    404
+{% endblock %}
+
+{% block content %}
+    <h1>sorry, Don't fount that you ask</h1>
+    <p> {{error}} </p>
+{% endblock %}
